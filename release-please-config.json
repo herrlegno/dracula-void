@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "initial-version": "1.0.0",
+  "packages": {
+    ".": {
+      "release-type": "simple",
+      "version-file": "version.txt",
+      "changelog-path": "CHANGELOG.md",
+      "include-v-in-tag": true,
+      "include-component-in-tag": false,
+      "pull-request-title-pattern": "chore(release): ${version}",
+      "changelog-sections": [
+        {
+          "type": "feat",
+          "section": "Features"
+        },
+        {
+          "type": "fix",
+          "section": "Bug Fixes"
+        },
+        {
+          "type": "perf",
+          "section": "Performance Improvements"
+        },
+        {
+          "type": "refactor",
+          "section": "Refactoring"
+        },
+        {
+          "type": "revert",
+          "section": "Reverts"
+        }
+      ],
+      "extra-files": [
+        {
+          "type": "generic",
+          "path": "gradle.properties"
+        },
+        {
+          "type": "generic",
+          "path": "README.md"
+        },
+        {
+          "type": "xml",
+          "path": "resources/META-INF/plugin.xml",
+          "xpath": "//idea-plugin/version"
+        }
+      ]
+    }
+  }
+}

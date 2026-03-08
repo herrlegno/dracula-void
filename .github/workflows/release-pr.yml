@@ -1,0 +1,34 @@
+name: Create Release PR
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_ref:
+        description: Branch to analyze and open the release PR from
+        required: true
+        default: main
+
+concurrency:
+  group: release-pr-${{ github.event.inputs.base_ref || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  create-release-pr:
+    name: Open Release PR
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Open or update release pull request
+        id: release
+        uses: googleapis/release-please-action@v4
+        with:
+          token: ${{ secrets.RELEASE_PLEASE_TOKEN || github.token }}
+          target-branch: ${{ inputs.base_ref }}
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
+          skip-github-release: true

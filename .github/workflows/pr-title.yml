@@ -1,0 +1,16 @@
+name: Enforces Conventional Commits PR Titles
+on:
+  pull_request:
+    types: [opened, edited, reopened]
+    branches:
+      - main
+
+jobs:
+  validate-pr-title:
+    runs-on: ${{ vars.RUNNER_DOCKER_MICRO }}
+    steps:
+      - name: Validate PR title
+        uses: ytanikin/pr-conventional-commits@1.5.1
+        with:
+          task_types: '["build","ci","chore","docs","style","perf","refactor","test","feat","fix","revert"]'
+          add_label: 'false'
