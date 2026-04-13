@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/herrlegno/dracula-void/compare/v1.0.0...v1.0.1) (2026-04-13)
+
+
+### Performance Improvements
+
+* removes unnecesary img from bundle ([#5](https://github.com/herrlegno/dracula-void/issues/5)) ([b468da4](https://github.com/herrlegno/dracula-void/commit/b468da4ff585bc7e957c9c706476b893df41631c))
+* removes upstream from bundle ([#7](https://github.com/herrlegno/dracula-void/issues/7)) ([9593bf8](https://github.com/herrlegno/dracula-void/commit/9593bf82f48c7af15653887c1eafaa9a946bb51b))
+
 ## 1.0.0 (2026-04-10)
 
 
