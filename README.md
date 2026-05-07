@@ -7,7 +7,7 @@
 ![JetBrains 2025.3+](https://img.shields.io/badge/JetBrains-2025.3+-000000?logo=jetbrains)
 ![Gradle 9.1.0](https://img.shields.io/badge/Gradle-9.1.0-02303A?logo=gradle)
 <!-- x-release-please-start-version -->
-![Plugin 1.0.1](https://img.shields.io/badge/plugin-1.0.0-50fa7b)
+![Plugin 1.1.0](https://img.shields.io/badge/plugin-1.0.0-50fa7b)
 <!-- x-release-please-end -->
 
 > A pure black Dracula-inspired theme plugin for JetBrains IDEs.
