@@ -24,11 +24,11 @@
 |-------------------------------------------------|-----------------------------------------------|
 | ![before](./resources/button-before.png) | ![after](./resources/button-after.png) |
 
-## Info Labels
+## Git
 
-| Before                                            | After                                           |
-|---------------------------------------------------|-------------------------------------------------|
-| ![before](./resources/info-foreground-before.png) | ![after](./resources/info-foreground-after.png) |
+| Before                                | After                               |
+|---------------------------------------|-------------------------------------|
+| ![before](./resources/git-before.png) | ![after](./resources/git-after.png) |
 
 ## Plugins
 
