@@ -329,9 +329,8 @@
       },
       "Log": {
         "Commit": {
-          "hoveredBackground": "hoverBackground",
-          "currentBranchBackground": "#111",
-          "selectionBackground": "selectionBackground"
+          "hoveredBackground": "selectionBackground",
+          "currentBranchBackground": "#2e3040"
         }
       },
       "RefLabel": {

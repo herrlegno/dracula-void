@@ -24,12 +24,6 @@
 |-------------------------------------------------|-----------------------------------------------|
 | ![before](./resources/button-before.png) | ![after](./resources/button-after.png) |
 
-## Git
-
-| Before                                | After                               |
-|---------------------------------------|-------------------------------------|
-| ![before](./resources/git-before.png) | ![after](./resources/git-after.png) |
-
 ## Plugins
 
 | Before                                    | After                                   |
