@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/herrlegno/dracula-void/compare/v1.2.0...v1.3.0) (2026-06-18)
+
+
+### Features
+
+* syncs theme with upstream v2.1.1 ([a52b491](https://github.com/herrlegno/dracula-void/commit/a52b491fb261c2f5c1f4373ec05b3dfc5ac3ab64))
+
+
+### Bug Fixes
+
+* fixes checkbox colors ([64107f2](https://github.com/herrlegno/dracula-void/commit/64107f28c7ac566ccd1f950bbb6a1975c8ee00e1))
+
 ## [1.2.0](https://github.com/herrlegno/dracula-void/compare/v1.1.0...v1.2.0) (2026-06-05)
 
 
