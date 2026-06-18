@@ -45,6 +45,10 @@ You can buy me a Amazon eGift Card (if you feel like it) to this email: `herrleg
 
 Development setup, build commands, and pull request guidelines live in `CONTRIBUTING.md`.
 
+## Credits
+
+This theme is based on the [Dracula Theme](https://github.com/dracula/jetbrains) by [Zihan Ma](https://github.com/WhiteVermouth).
+
 ## License
 
 This project is licensed under the `MIT` License.
