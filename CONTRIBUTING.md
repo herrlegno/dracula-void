@@ -23,7 +23,7 @@ Thanks for contributing to Dracula Void.
 
 ## Building and testing
 
-The project uses Gradle `9.1.0` and the IntelliJ Platform Gradle plugin `2.12.0`.
+The project uses Gradle `9.1.0` and the IntelliJ Platform Gradle plugin `2.18.1`.
 
 Build the plugin ZIP:
 
