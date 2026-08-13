@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/herrlegno/dracula-void/compare/v1.3.0...v1.4.0) (2026-08-13)
+
+
+### Features
+
+* syncs theme with upstream v2.3.0 ([122ca61](https://github.com/herrlegno/dracula-void/commit/122ca61f9b9966c5be9fea5ada12f94692d9983b))
+
 ## [1.3.0](https://github.com/herrlegno/dracula-void/compare/v1.2.0...v1.3.0) (2026-06-18)
 
 
