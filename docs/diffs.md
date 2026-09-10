@@ -44,9 +44,9 @@ This document tracks all specific theme keys and editor scheme options where **D
 
 | Key | Upstream Value | Dracula Void Value |
 |---|---|---|
-| `ui.Notification.errorBackground` | `primaryBackground` | `primaryBackground` (`#000000`) |
+| `ui.Notification.errorBackground` | `secondaryBackground` | `secondaryBackground` (`#000000`) |
 | `ui.Notification.errorBorderColor` | `#ff5554` | `#ff5554` |
-| `ui.Notification.ToolWindow.errorBackground` | `primaryBackground` | `primaryBackground` (`#000000`) |
+| `ui.Notification.ToolWindow.errorBackground` | `secondaryBackground` | `secondaryBackground` (`#000000`) |
 
 | Before                                         | After                                        |
 |------------------------------------------------|----------------------------------------------|
