@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/herrlegno/dracula-void/compare/v1.5.0...v1.5.1) (2026-09-10)
+
+
+### Bug Fixes
+
+* fixes terminal background ([2232a24](https://github.com/herrlegno/dracula-void/commit/2232a2433c384586bae4aff22aaa29d2296fffb8))
+
 ## [1.5.0](https://github.com/herrlegno/dracula-void/compare/v1.4.0...v1.5.0) (2026-09-10)
 
 
